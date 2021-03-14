@@ -33,11 +33,20 @@ body {
 }
 
 .color-circle {
+  float: left;
   width: 50px;
   height: 50px;
   margin-top: 8px;
   border: 2px solid #d8d8d8;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-circle.active {
+  cursor: default;
+  border: 5px solid black;
+  width: 45px;
+  height: 45px;
 }
 
 

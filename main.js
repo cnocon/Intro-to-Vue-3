@@ -1,3 +1,4 @@
+// This is more like a product component than contents for a main.js file entry point
 const app = Vue.createApp({
     data() {
         return {
@@ -8,8 +9,8 @@ const app = Vue.createApp({
             inStock: false,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
-              { id: 2234, color: 'green', image: './assets/images/socks_green.jpg' },
-              { id: 2235, color: 'blue', image: './assets/images/socks_blue.jpg' },
+              { id: 2234, isActive: false, color: 'green', image: './assets/images/socks_green.jpg' },
+              { id: 2235, isActive: true, color: 'blue', image: './assets/images/socks_blue.jpg' },
             ]
         }
     },
