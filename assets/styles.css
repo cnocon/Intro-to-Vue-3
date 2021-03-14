@@ -4,13 +4,15 @@ body {
   font-family: tahoma;
   color: #282828;
 }
+.button-container {overflow: hidden; width: 430px;}
 
 .button {
-  margin: 30px;
+  margin: 15px 0 15px 15px;
+  float: left;
   background-color: #39495c;
   border-radius: 5px;
   font-size: 18px;
-  width: 160px;
+  width: 200px;
   height: 60px;
   color: white;
   padding: 20px;
